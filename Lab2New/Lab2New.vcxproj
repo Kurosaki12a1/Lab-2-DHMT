@@ -110,6 +110,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GL.H" />
+    <ClInclude Include="GLAUX.H" />
+    <ClInclude Include="GLU.H" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="supportclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphicLab2.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="supportClass.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
